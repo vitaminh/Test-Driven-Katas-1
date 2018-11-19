@@ -8,6 +8,6 @@ const twoSum = (numbers, target) => {
     seen[currentNum] = i;
   }
   return [];
-}
-console.log(twoSum([3, 5, 10], 15));
+};
+
 module.exports = twoSum;
